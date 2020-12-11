@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    
+
+    <title>Holly cookies</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark justify-content-center fixed-top">
+          <ul class="nav lead nav-pills">
+            <li class="nav-item">
+              <a class="nav-link txt-white-nav" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link txt-white-nav" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link txt-white-nav" href="about.html">Galletas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link txt-white-nav active" href="contactos.html">Contactanos</a>
+            </li>
+          </ul>
+      </nav>
+  </header>
+    
+      <section>
+        <div class="jumbotron ">
+          <h1 class="sombra-letra">Holly Cookies</h1>
+        </div>
+      </section>  
+
+      <div class="fondo-2">
+          <h5 class="sombra-letra-a">contactanos o envianos tu comentario aquí</h5>
+      </div>
+
+
+      <form class=" fondo-form">
+        <div class=" fondo-1-borde container form-group align-items-center">
+          <div class="row">
+              <div class="col-sm-4">
+              <label for="">Nombre</label>
+              <input type="text" name="nombre" class="form-control" required>
+            </div>
+            <div class="col-sm-4">
+              <label for="">apellidos</label>
+              <input type="text" name="apellido" class="form-control" required>
+            </div>
+            <br>
+            <div class="form-group col-sm-4">
+              <label for="">ciudad</label>
+              <select name="ciudad" class="form-control" id="">
+                <option value="cali">Santiago de Cali</option>
+                <option value="medellin">Medellin</option>
+                <option value="bogota">Bogota</option>
+                <option value="cartagena">Cartagena</option>
+                <option value="pasto">Pasto</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+          </div>
+            <div class="form-group">
+              <label for="Email">Email</label>
+              <input type="mail" name="email" class="form-control" required id="Email">
+            </div>
+            <label for="terms">Acepta los terminos y condiciones</label>
+            <div class="form-check">
+              <label for="">si</label>
+              <input type="radio" name="terms" value="si" required>
+            </div>
+            <div class="form-check">
+              <label for="">no</label>
+              <input type="radio" name="terms" value="no">
+            </div>
+            <div class="form-group">
+              <label for="comment">Comment:</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>
+
+
+    <footer class="row">     
+      <div class="col-sm-4 d-flex flex-column">
+        <a href="">Facebook</a>
+        <a href="">Twitter</a>
+        <a href="">Instagram</a>
+      </div>
+      <address class="col-sm-4 d-flex flex-column">
+        <span>Punto de venta central</span>
+        <span>carrera 27a #44-35</span>
+        <span>+57 310-641-5913</span>
+        <span>camobaan@gmail.com</span>
+      </address>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="">Nosotros</a>
+        <a href="">Contactanos</a>
+        <a href="">Terminos y condiciones</a>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

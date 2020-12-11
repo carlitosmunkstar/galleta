@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: morning;
+    src: url(diferentes-letras/Sunday\ Morning.ttf);
+}
+
+@font-face {
+    font-family: beamer;
+    src: url(diferentes-letras/Shadow\ Beamer.ttf);
+}
+@font-face {
+    font-family:  sweet;
+    src: url(diferentes-letras/Sweetheart.ttf);
+}
+
+
+.p-150 {
+  
+    font-size: 150%;
+}
+
+.sombra-letra {
+    color: azure;
+    text-shadow: black 0.3em 0.1em 0.3em ;
+    font-family: morning;
+}
+.sombra-letra-a {
+    color: azure;
+    text-shadow: black 0.3em 0.1em 0.3em ;
+    font-family: morning;
+    display: inline-block;
+    background-color: #5DADE2;
+    padding: 2%;
+    border-radius: 20%;
+
+}
+
+.sombra-bloque {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.txt-white{
+    color: white;
+    font-family: sweet;
+    font-size: 160% !important;
+}
+
+.txt-white-nav{
+    color: white;
+    font-family: sweet;
+    font-size: 120% !important;
+}
+
+.section-d {
+    margin-top: 50px;
+}
+
+.fondo {
+    margin: auto 10px auto 10px;
+    padding: 50px;
+}
+
+.fondo-1 {
+background: aquamarine;
+
+}
+.fondo-1-borde {
+    background: aquamarine;
+        border-radius: 20px;
+    }
+
+.fondo-2 {
+    
+    text-align: center;
+}
+
+
+
+footer {
+    background: #D58E5D;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    padding: 20px;
+    margin-top: 90px;
+    
+}
+
+.jumbotron {
+
+    padding: 90px !important;
+    padding-top: 140px !important;
+    background-image: url(../imagenes/fondo1.jpg) !important;
+    background-size: cover;
+}
+

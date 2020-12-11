@@ -1,0 +1,25 @@
+{
+  "name": "galletas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Carlitosmunkstar@bitbucket.org/Carlitosmunkstar/galletas.git"
+  },
+  "author": "Carlos Andres Mosquera",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Carlitosmunkstar/galletas#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
