@@ -1,0 +1,184 @@
+@import "fuente";
+
+
+
+.p-150 {
+  
+    font-size: 150%;
+}
+
+.sombra-letra {
+    color: azure;
+    text-shadow: black 0.3em 0.1em 0.3em ;
+    font-family: morning;
+}
+.sombra-letra-a {
+    color: azure;
+    text-shadow: black 0.3em 0.1em 0.3em ;
+    
+    display: inline-block;
+    background-color: #5DADE2;
+    padding: 2%;
+    border-radius: 20%;
+
+}
+
+.sombra-bloque {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.txt-white{
+    color: white;
+    font-family: sweet;
+    font-size: 160% !important;
+}
+
+.txt-white-nav{
+    color: white;
+    font-family: sweet;
+    font-size: 120% !important;
+}
+
+.txt-white-a{
+    color: white;
+}
+
+.txt-black-a{
+    color: #000;
+
+}
+
+.section-d {
+    margin-top: 50px;
+}
+
+.fondo {
+    margin: auto 10px auto 10px;
+    padding: 50px;
+}
+
+.fondo-1 {
+background: aquamarine;
+
+}
+.fondo-1-borde {
+    background: aquamarine;
+        border-radius: 20px;
+    }
+
+.fondo-2 {
+    
+    text-align: center;
+}
+
+hr{
+    border: 1px solid #505050cd !important;
+}
+
+footer {
+    background-image: radial-gradient(#D58E5D, #423E3C) ;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    padding: 20px;
+    margin-top: 90px;
+    
+}
+
+.jumbotron {
+
+    padding: 90px !important;
+    padding-top: 140px !important;
+    background-image: url(../imagenes/fondo1.jpg) !important;
+    background-size: cover;
+}
+
+.boton-redes {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    height: 75px;
+    justify-content: center;
+}
+
+.boton-redes {
+    ul {
+        li{
+
+            display: inline-block;
+            margin: 0%;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+
+            a{
+                display: block;
+                padding: 0 10px;
+                background: #333333;
+                color: white;
+                line-height: 50px;
+                font-size: 18px;
+                box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+                transition: .2s;
+            }
+        }
+    }
+}
+
+.boton-redes {
+    ul:hover {
+        a {
+            filter:  blur(2px);
+        }
+    }
+}
+
+.boton-redes {
+    ul{
+        li{
+            a:hover{
+                transform: translateY (-3px) scale(1.05);
+                box-shadow: 0 5px 5px 0px rgba($color: #000000, $alpha: 1.0);
+                filter: none;
+            }
+        }
+    }
+}
+
+.boton-redes {
+    ul{
+        li .facebook:hover{
+            background: var(--facebook);
+
+        }
+    }
+}
+
+.boton-redes {
+    ul{
+        li .whatsapp:hover{
+            background: var(--whatsapp);
+            
+        }
+    }
+}
+.boton-redes {
+    ul{
+        li .instagram:hover{
+            background: var(--instagram);
+            
+        }
+    }
+}
+
+:root{
+    --facebook:#0458AB;
+    --instagram:#d31850;
+    --whatsapp:#8CCF36;
+}
+
+.fondo-centro {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
