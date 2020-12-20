@@ -12,14 +12,20 @@
     text-shadow: black 0.3em 0.1em 0.3em ;
     font-family: morning;
 }
+
+.shadow {
+    color: azure;
+    text-shadow: black 0.3em 0.1em 0.3em ;
+}
 .sombra-letra-a {
     color: azure;
     text-shadow: black 0.3em 0.1em 0.3em ;
-    
-    display: inline-block;
-    background-color: #5DADE2;
+    display: inline-flex;
+    background-color: #DE112D;
     padding: 2%;
     border-radius: 20%;
+    transform: translateY(80px);
+    border: none;
 
 }
 
@@ -31,6 +37,14 @@
     color: white;
     font-family: sweet;
     font-size: 160% !important;
+}
+.sweet {
+    color: white;
+    font-family: sweet;
+    font-size: 230% !important;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .txt-white-nav{
@@ -61,9 +75,15 @@
 background: aquamarine;
 
 }
+
+.fondo-form {
+    margin-top: 40px;
+}
+
 .fondo-1-borde {
-    background: aquamarine;
+    background-image: linear-gradient(#DE112D, #148A1B);
         border-radius: 20px;
+        padding: 100px;
     }
 
 .fondo-2 {
@@ -98,6 +118,7 @@ footer {
     display: flex;
     height: 75px;
     justify-content: center;
+    transform: translate(-20px);
 }
 
 .boton-redes {
@@ -182,3 +203,64 @@ footer {
     align-items: center;
     text-align: center;
 }
+
+.body-navidad {
+    background-image: url(../imagenes/fondonavidad.jpg);
+    background-size: cover;
+}
+
+.beamer {
+    font-family: beamer;
+    font-size: 30px;
+}
+
+.imagen-mediana {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.flip-card {
+    background-color: transparent !important;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: transparent !important;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2bceab;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .card {
+      background-color: transparent !important;
+  }
